@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Getting Started with React",
+    "description": "Learn the basics of React components, props and state.",
+    "category": "React",
+    "author": "Saurabh Pandey",
+    "date": "Oct 1, 2026"
+  },
+  {
+    "id": 2,
+    "title": "Understanding JavaScript ES6",
+    "description": "A simple introduction to modern JavaScript features.",
+    "category": "JavaScript",
+    "author": "Saurabh Pandey",
+    "date": "Sep 28, 2026"
+  },
+  {
+    "id": 3,
+    "title": "Introduction to Node.js",
+    "description": "Learn how Node.js can be used to build backend applications.",
+    "category": "Node.js",
+    "author": "Saurabh Pandey",
+    "date": "Sep 25, 2026"
+  },
+  {
+    "id": 4,
+    "title": "Understanding MongoDB",
+    "description": "Learn the basics of documents, collections and MongoDB.",
+    "category": "Database",
+    "author": "Saurabh Pandey",
+    "date": "Sep 20, 2026"
+  },
+  {
+    "id": 5,
+    "title": "React Props and State",
+    "description": "Understand how props and state are used in React applications.",
+    "category": "React",
+    "author": "Saurabh Pandey",
+    "date": "Sep 15, 2026"
+  },
+  {
+    "id": 6,
+    "title": "REST API Basics",
+    "description": "Understand GET, POST, PUT and DELETE requests.",
+    "category": "Backend",
+    "author": "Saurabh Pandey",
+    "date": "Sep 10, 2026"
+  }
+]

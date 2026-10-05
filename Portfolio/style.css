@@ -1,0 +1,333 @@
+    ```css
+/* ================= GENERAL ================= */
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 75px;
+}
+
+body {
+    background: #050816;
+    color: #f5f7ff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* ================= NAVBAR ================= */
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    background: rgba(5, 8, 22, 0.95) !important;
+    border-bottom: 1px solid #20263d;
+}
+
+.navbar-brand {
+    font-size: 1.4rem;
+    font-weight: bold;
+
+    background: linear-gradient(
+        90deg,
+        #6c63ff,
+        #00d4ff
+    );
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-link {
+    color: #b8bfd6 !important;
+    margin-left: 15px;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #ffffff !important;
+}
+
+
+/* ================= COMMON SECTION ================= */
+
+section {
+    padding: 80px 0;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+
+    background: linear-gradient(
+        90deg,
+        #ffffff,
+        #8f8cff,
+        #00d4ff
+    );
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/* ================= ABOUT ================= */
+
+.about-card {
+    background: #0b1020 !important;
+    color: white !important;
+    
+    border: 1px solid #252c45;
+    border-radius: 15px;
+
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.35);
+}
+
+.about-card h2 {
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.about-card h5 {
+    color: #00d4ff;
+}
+
+.about-card p {
+    color: #b8bfd6;
+    line-height: 1.7;
+}
+
+
+/* Gradient around profile image */
+
+.about-img {
+    width: 70%;
+    height: 50%;
+    min-height: 10px;
+
+    object-fit: cover;
+
+    border-radius: 12px;
+    padding: 3px;
+
+    background: linear-gradient(
+        135deg,
+        #6c63ff,
+        #00d4ff
+    );
+}
+
+
+/* ================= SKILLS ================= */
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+
+.skill-btn {
+    background: #0b1020 !important;
+    color: #dce2ff !important;
+
+    border: 1px solid #303852 !important;
+    border-radius: 20px;
+
+    padding: 8px 18px;
+
+    transition: 0.3s;
+}
+
+.skill-btn:hover {
+    color: white !important;
+
+    border-color: #6c63ff !important;
+
+    background: linear-gradient(
+        90deg,
+        #6c63ff,
+        #00a8cc
+    ) !important;
+
+    transform: translateY(-2px);
+}
+
+
+/* ================= EDUCATION ================= */
+
+.custom-card {
+    background: #0b1020 !important;
+    color: white !important;
+
+    border: 1px solid #252c45 !important;
+    border-radius: 15px;
+
+    height: 100%;
+
+    transition: 0.3s;
+}
+
+.custom-card:hover {
+    border-color: #6c63ff !important;
+
+    transform: translateY(-5px);
+
+    box-shadow:
+        0 10px 30px rgba(108, 99, 255, 0.15);
+}
+
+.custom-card h4 {
+    font-weight: bold;
+}
+
+.custom-card h6 {
+    color: #00d4ff !important;
+}
+
+.custom-card p {
+    color: #b8bfd6;
+    line-height: 1.6;
+}
+
+
+/* ================= PROJECTS ================= */
+
+#projects {
+    background: #070b18;
+}
+
+.project-tech {
+    color: #7f89a8 !important;
+    font-size: 0.9rem;
+}
+
+
+/* Project buttons */
+
+.custom-card .btn-outline-light {
+    border-color: #4d5572;
+    color: #dce2ff;
+}
+
+.custom-card .btn-outline-light:hover {
+    border-color: #6c63ff;
+    background: #6c63ff;
+    color: white;
+}
+
+
+/* ================= CONTACT ================= */
+
+.form-control {
+    background: #070b18 !important;
+
+    color: white !important;
+
+    border: 1px solid #303852 !important;
+
+    border-radius: 8px;
+
+    padding: 12px;
+}
+
+.form-control:focus {
+    background: #070b18 !important;
+
+    color: white !important;
+
+    border-color: #6c63ff !important;
+
+    box-shadow: 0 0 0 2px rgba(108, 99, 255, 0.15);
+}
+
+.form-control::placeholder {
+    color: #6f7895;
+}
+
+
+/* Contact button */
+
+.contact-btn {
+    background: linear-gradient(
+        90deg,
+        #6c63ff,
+        #00bcd4
+    ) !important;
+
+    color: white !important;
+
+    border: none !important;
+
+    padding: 12px;
+
+    font-weight: bold;
+
+    border-radius: 8px;
+
+    transition: 0.3s;
+}
+
+.contact-btn:hover {
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 8px 20px rgba(108, 99, 255, 0.3);
+}
+
+
+/* ================= FOOTER ================= */
+
+footer {
+    background: #03050d;
+
+    border-top: 1px solid #20263d;
+
+    padding: 30px 0;
+
+    text-align: center;
+}
+
+footer h5 {
+    font-weight: bold;
+
+    background: linear-gradient(
+        90deg,
+        #6c63ff,
+        #00d4ff
+    );
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+footer p {
+    color: #707994;
+}
+
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 768px) {
+
+    section {
+        padding: 60px 15px;
+    }
+
+    .about-card h2 {
+        font-size: 1.8rem;
+    }
+
+    .about-img {
+        min-height: 220px;
+    }
+
+    .nav-link {
+        margin-left: 0;
+        padding: 10px 0;
+    }
+
+}
+```
