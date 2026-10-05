@@ -22,7 +22,7 @@ A responsive single-page personal portfolio built using HTML, CSS, and Bootstrap
 * Projects
 * Contact
 
-[View Portfolio](./portfolio/)
+[View Portfolio](./Portfolio/)
 
 ---
 
